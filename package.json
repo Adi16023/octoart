@@ -39,5 +39,21 @@
   "devDependencies": {
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.4"
-  }
+  },
+  "description": "<a href=\"https://octoart.vercel.app\">\r   <img alt=\"OctoArt – Generate beautiful GitHub octocat art with one click. Promote open-source!\" src=\"/app/opengraph-image.png\">\r   <h1 align=\"center\">OctoArt</h1>\r </a>",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adi16023/octoart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adi16023/octoart/issues"
+  },
+  "homepage": "https://github.com/Adi16023/octoart#readme"
 }
