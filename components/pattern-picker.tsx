@@ -3,6 +3,7 @@ import { Dispatch, SetStateAction, useState } from "react";
 
 const patterns = [
   "https://w3hp0wwfpdgpzwdt.public.blob.vercel-storage.com/kk49gtk-XpDOG1662fNHYhVAQu8q7qEFema4S9.png",
+  "https://www.citypng.com/public/uploads/preview/flipkart-white-logo-icon-transparent-png-11664324859p0c9urgwqq.png"
 ];
 
 export default function PatternPicker({
