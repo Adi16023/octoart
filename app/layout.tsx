@@ -20,9 +20,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "OctoArt",
+  title: "FlipKart",
   description:
-    "Generate beautiful GitHub octocat art with one click. Promote open-source!",
+    "Generate beautiful FlipKart art with one click. Promote open-source!",
   metadataBase: new URL("https://octoart.vercel.app"),
 };
 
@@ -51,22 +51,22 @@ export default function RootLayout({
             >
               <Image
                 src="/logo.png"
-                alt="Logo image of OctoArt"
+                alt="Logo image of FlipKart"
                 width="100"
                 height="100"
                 className="mr-2 rounded-sm"
               ></Image>
-              <p>OctoArt</p>
+              <p>FlipKart</p>
             </Link>
             <div className="flex items-center space-x-4">
               <Link
-                href="/gallery"
+                href="/website"
                 className="text-violet-400 hover:text-violet-600"
               >
-                Gallery
+                Website
               </Link>
               <a
-                href="https://github.com/garrrikkotua/octoart"
+                href="https://www.flipkart.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
