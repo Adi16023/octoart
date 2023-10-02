@@ -36,7 +36,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(clash.variable, inter.variable)}>
         <Toaster />
-        <div className="fixed h-screen w-full bg-gradient-to-br from-purple-100 via-slate-50 to-violet-100" />
+        <div className="fixed h-screen w-full bg-color-yellow bg-gradient-to-br from-yellow-100 via-slate-50 to-yellow-100" />
         <div
           className={`fixed top-0 w-full ${
             scrolled
@@ -52,8 +52,8 @@ export default function RootLayout({
               <Image
                 src="/logo.png"
                 alt="Logo image of FlipKart"
-                width="100"
-                height="100"
+                width="50"
+                height="50"
                 className="mr-2 rounded-sm"
               ></Image>
               <p>FlipKart</p>
@@ -61,7 +61,7 @@ export default function RootLayout({
             <div className="flex items-center space-x-4">
               <Link
                 href="/website"
-                className="text-violet-400 hover:text-violet-600"
+                className="text-yellow-400 hover:text-yellow-600"
               >
                 Website
               </Link>
@@ -93,7 +93,7 @@ export default function RootLayout({
           <p>
             Subscribe to my{" "}
             <a
-              className="font-semibold text-violet-500 underline-offset-4 transition-colors hover:underline"
+              className="font-semibold text-yellow-500 underline-offset-4 transition-colors hover:underline"
               href="https://stargazerweekly.beehiiv.com/"
               target="_blank"
               rel="noopener noreferrer"
