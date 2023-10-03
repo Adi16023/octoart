@@ -36,7 +36,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(clash.variable, inter.variable)}>
         <Toaster />
-        <div className="fixed h-screen w-full bg-color-yellow bg-gradient-to-br from-yellow-100 via-slate-50 to-yellow-100" />
+        <div className="fixed h-screen w-full bg-color-yellow bg-gradient-to-br from-yellow-100 to-yellow-100" />
         <div
           className={`fixed top-0 w-full ${
             scrolled
