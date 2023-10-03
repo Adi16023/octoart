@@ -56,7 +56,7 @@ export default function RootLayout({
                 height="50"
                 className="mr-2 rounded-sm"
               ></Image>
-              <p>FlipKart</p>
+              {/* <p>FlipKart</p> */}
             </Link>
             <div className="flex items-center space-x-4">
               <Link

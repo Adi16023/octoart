@@ -3,6 +3,7 @@ import Form from "@/components/form";
 import PhotoBooth from "@/components/photo-booth";
 import { CountDisplay, GeneratedCount } from "./generated-count";
 import { Suspense } from "react";
+import Image from "next/image";
 
 export default function FormRSC({
   prompt,
@@ -30,12 +31,19 @@ export default function FormRSC({
         </a>
       )}
 
-      <h1
+      {/* <h1
         className="animate-fade-up bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm [text-wrap:balance] md:text-7xl md:leading-[5rem]"
         style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
       >
         FlipKart
-      </h1>
+      </h1> */}
+      <Image
+                src="/mainlogo.png"
+                alt="Logo image of FlipKart"
+                width="100"
+                height="100"
+                className="mr-2 rounded-sm"
+              ></Image>
       <p
         className="mt-6 animate-fade-up text-center text-gray-500 opacity-0 [text-wrap:balance] md:text-xl"
         style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
