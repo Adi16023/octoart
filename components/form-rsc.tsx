@@ -40,8 +40,8 @@ export default function FormRSC({
       <Image
                 src="/mainlogo.png"
                 alt="Logo image of FlipKart"
-                width="100"
-                height="100"
+                width="200"
+                height="200"
                 className="mr-2 rounded-sm"
               ></Image>
       <p
