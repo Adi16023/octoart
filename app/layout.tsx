@@ -52,8 +52,8 @@ export default function RootLayout({
               <Image
                 src="/logo.png"
                 alt="Logo image of FlipKart"
-                width="50"
-                height="50"
+                width="200"
+                height="200"
                 className="mr-2 rounded-sm"
               ></Image>
               {/* <p>FlipKart</p> */}

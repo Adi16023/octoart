@@ -42,7 +42,7 @@ export default function FormRSC({
                 alt="Logo image of FlipKart"
                 width="250"
                 height="250"
-                className="mr-2 rounded-sm pl-5 pr-5"
+                className=""
               ></Image>
       <p
         className="mt-6 animate-fade-up text-center text-gray-500 opacity-0 [text-wrap:balance] md:text-xl"
